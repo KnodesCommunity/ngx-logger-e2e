@@ -1,0 +1,13 @@
+{
+  "extends": "../../.eslintrc.json",
+  "parserOptions": {
+    "project": [
+      "projects/ngx-logger-e2e/tsconfig.lib.json",
+      "projects/ngx-logger-e2e/tsconfig.spec.json"
+    ],
+    "createDefaultProgram": true
+  },
+  "ignorePatterns": [
+    "!**/*"
+  ]
+}

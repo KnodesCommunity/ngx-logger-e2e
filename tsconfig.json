@@ -18,7 +18,13 @@
     "lib": [
       "es2018",
       "dom"
+    ],
+    "paths": {
+      "@scitizen/ngx-logger-e2e": [
+        "dist/ngx-logger-e2e/ngx-logger-e2e",
+        "dist/ngx-logger-e2e"
       ]
+    }
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
