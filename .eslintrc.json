@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "projects/**/*"
+  ],
+  "extends": "@scitizen/eslint-config/angular",
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"packageDir": "./"}]
+  }
+}
