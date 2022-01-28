@@ -1,0 +1,11 @@
+{
+    "ngPackage": {
+        "lib": {
+            "entryFile": "src/public-api.ts"
+        }
+    },
+    "peerDependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0"
+    }
+}

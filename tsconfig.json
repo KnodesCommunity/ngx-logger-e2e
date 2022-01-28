@@ -13,6 +13,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
     "target": "es2015",
     "module": "es2020",
     "lib": [
@@ -20,9 +21,16 @@
       "dom"
     ],
     "paths": {
+      "@scitizen/ngx-logger-e2e/*": [
+        "dist/ngx-logger-e2e/ngx-logger-e2e/*",
+        "dist/ngx-logger-e2e/*",
+        "projects/ngx-logger-e2e/*/src/public_api.ts",
+        "projects/ngx-logger-e2e/*",
+      ],
       "@scitizen/ngx-logger-e2e": [
         "dist/ngx-logger-e2e/ngx-logger-e2e",
-        "dist/ngx-logger-e2e"
+        "dist/ngx-logger-e2e",
+        "projects/ngx-logger-e2e/src/public_api.ts",
       ]
     }
   },
